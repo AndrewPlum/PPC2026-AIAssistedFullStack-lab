@@ -43,5 +43,6 @@
   "barcodeScanUiScaffolded": true,
   "configDataDirectory": "/workspaces/PPC2026-AIAssistedFullStack-lab/src/Packages.Main/Data",
   "configDataSchemaPath": "/workspaces/PPC2026-AIAssistedFullStack-lab/src/Packages.Main/Data/data_schema.xml",
-  "configDataFilePath": "/workspaces/PPC2026-AIAssistedFullStack-lab/src/Packages.Main/Data/data.xml"
+  "configDataFilePath": "/workspaces/PPC2026-AIAssistedFullStack-lab/src/Packages.Main/Data/data.xml",
+  "testsUiScaffolded": true
 }

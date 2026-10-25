@@ -9,7 +9,7 @@ You do it all by talking to **Copilot Chat**.
 You move forward in **checkpoints**. Copilot does the work in two ways:
 
 - **Setup checkpoints** run a script that sets up the project and its pipelines. You ask Copilot to run it, and it tells you what happened.
-- **Build checkpoints** have Copilot build part of the app from a spec. You type a command like `/cp06-data-model`, and it reads the spec and does the work.
+- **Build checkpoints** have Copi'lot build part of the app from a spec. You type a command like `/cp06-data-model`, and it reads the spec and does the work.
 
 Every checkpoint ends the same way: a **pull request** on your fork that you review and merge.
 

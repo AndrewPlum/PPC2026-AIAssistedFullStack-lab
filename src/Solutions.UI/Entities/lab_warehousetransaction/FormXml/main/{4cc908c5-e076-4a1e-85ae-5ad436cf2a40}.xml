@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4cc908c5-e076-4a1e-85ae-5ad436cf2a40}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{f7ecc35b-ef91-4c41-90bc-fdab1be0120d}" IsUserDefined="1" name="general" labelid="{c1b75952-b6af-4099-b6c4-19002bf9a7b3}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{eba6d508-8c99-485a-8f5a-c3269152d9fd}" labelid="{3f55e4d5-7be5-43d4-bdf7-856f77cf65ad}" name="general">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{D50D41A5-9BB3-40CA-8A4B-AD981A8DC636}" labelid="{C8630F3F-677E-4079-9E3C-872EEC06C8B3}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="lab_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lab_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40B997EB-65B7-46C4-A241-A75DA4632F94}" labelid="{9ED036A2-83DB-4762-95C8-3E0D8E9E36B8}">
+                        <labels>
+                          <label description="Item" languagecode="1033" />
+                        </labels>
+                        <control id="lab_itemid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="lab_itemid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3A4BA541-C3E6-462C-8528-F34AF1EE8146}" labelid="{7AECADFF-4461-45A3-88E5-E5A07221C601}">
+                        <labels>
+                          <label description="Quantity" languagecode="1033" />
+                        </labels>
+                        <control id="lab_quantity" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="lab_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10155432-04DE-45DB-BBB2-F714E75C03A9}" labelid="{196FDEA5-BD53-43C4-8D93-EF98AC48BDE3}">
+                        <labels>
+                          <label description="Transaction Type" languagecode="1033" />
+                        </labels>
+                        <control id="lab_transactiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="lab_transactiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3AA72FA8-D20A-4E05-BA7E-90ABD1B76D5E}" labelid="{BCED8790-4EE2-484E-8134-22B9097EF020}">
+                        <labels>
+                          <label description="Transaction Date" languagecode="1033" />
+                        </labels>
+                        <control id="lab_transactiondate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="lab_transactiondate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{AA1867E3-B1BC-4502-8C5A-B2F8E8A3A748}" labelid="{C31E94F8-52E5-47CC-9883-8DEF88CDA6B8}">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="lab_notes" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="lab_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{C48A9A9F-B8B8-4769-888C-6F10368C0216}" labelid="{FC865A97-E1C1-4C77-A929-27E8A451DEA4}">
+                        <labels>
+                          <label description="Total Value" languagecode="1033" />
+                        </labels>
+                        <control id="lab_totalvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="lab_totalvalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{08250740-B396-4211-8EEA-7BDC2D514466}" labelid="{B0DFC22D-5DBB-4207-B34E-8923C295E702}">
+                        <labels>
+                          <label description="Is Processed" languagecode="1033" />
+                        </labels>
+                        <control id="lab_isprocessed" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="lab_isprocessed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3FC18ECC-8892-4A0C-B64B-73C8978914D5}" labelid="{7EF29FB9-E108-4DC5-B137-30902E493577}">
+                        <labels>
+                          <label description="Processed By" languagecode="1033" />
+                        </labels>
+                        <control id="lab_processedby" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lab_processedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{F3A20F9D-F63E-41C9-BB9A-4129933F84EA}" labelid="{556FB27C-2CE0-409E-BF45-C2843825C1D8}">
+                        <labels>
+                          <label description="Reference Number" languagecode="1033" />
+                        </labels>
+                        <control id="lab_referencenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="lab_referencenumber" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{85e9861d-c294-4cd2-925c-8924088bbdba}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0a10b345-a31a-404e-ad26-6c4606fc0fc1}" showlabel="false" labelid="{d59dadd8-cd68-4324-a024-7786d7c7422d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{67e036c2-e0e1-43de-bbaa-ddc192913e2b}" showlabel="false" labelid="{545c63bc-c44c-4ba2-942b-5120933eac5d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9f712696-09a5-43d4-883a-397468678b20}" showlabel="false" labelid="{cd1e1ee7-dcd4-404c-af5a-a544869908e9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{acac24e0-da4d-4e9a-b90f-015110cb4148}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{634e87bd-f767-45f1-bc2f-3364760a96e7}" showlabel="false" labelid="{5c31bd17-a13e-4a83-8c70-cb9a2da57977}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2c47e294-b165-4757-9528-c39c2c3aa4b4}" showlabel="false" labelid="{d90b43da-27c2-469b-b991-d9197d7dab45}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ceadeea9-c036-4449-9aaa-a5ec28f451b3}" showlabel="false" labelid="{0ab67bc8-05ff-4484-ae0f-dd33d77a4065}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="lab_main.js" libraryUniqueId="{bae9896f-d63e-40c8-b587-34817944f838}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="true">
+          <Handlers>
+            <Handler libraryName="$webresource:lab_main.js" functionName="WarehouseScripts.TransactionForm.onLoad" passExecutionContext="true" enabled="true" handlerUniqueId="{60579560-9692-4a2b-bb1c-09afa768aa33}" parameters="" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="true" attribute="lab_quantity">
+          <Handlers>
+            <Handler libraryName="$webresource:lab_main.js" functionName="WarehouseScripts.TransactionForm.onQuantityChange" passExecutionContext="true" enabled="true" handlerUniqueId="{e533861a-aac2-4bda-8c67-fda081c689f0}" parameters="" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Generated Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
